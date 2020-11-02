@@ -26,4 +26,4 @@
 
 ## Visit My [To Do App][1]
 
-[1]:https://waed-hamza.github.io/waedLocalStorage/
+[1]:https://waed-hamza.github.io/Local-Storage/
