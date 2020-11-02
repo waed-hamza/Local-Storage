@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+h2{
+  color: rgb(17, 128, 91);
+  margin-top: 200px;
+}
+
+body {
+  background-color: #294d4a;
+}
+
+#root {
+  width: 75%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  /* height: 100%; */
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#add-div {
+  text-align: center;
+  width: 80%;
+}
+
+.title, #editTitle {
+  height: 30px;
+  margin: 20px 5px;
+  width: 30%;
+  border: solid 3px rgb(243, 56, 56);
+  border-radius: 10px;
+}
+
+#description, #editDescription {
+  vertical-align: top;
+  border: solid 3px rgb(243, 56, 56);
+  border-radius: 10px;
+}
+
+#editDescription{
+  margin: 5px;
+}
+
+#add-btn, #sort-btn, #sort-btn{
+  /* margin: 20px; */
+  padding: 5px 10px;
+  font-size: 15px;
+  /* border: solid 1px #ccc; */
+  background-color: rgb(4, 117, 161);
+  color: white;
+  width: 150px;
+  margin-top: 30px;
+  border-radius: 20px;
+  border: none;
+  /* transform: translate(-50%,-50%); */
+}
+
+
+#delete-btn, #edit-btn, #confirm-btn, #cancel-btn{
+  /* border: solid 1px #ccc; */
+  /* background-color: rgb(4, 117, 161); */
+  color: white;
+  width: 150px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  border: none;
+  margin: 5px;
+  padding: 5px;
+} 
+
+#delete-btn, #cancel-btn{
+  background-color: rgb(250, 90, 90);
+}
+
+#edit-btn, #confirm-btn{
+  background-color: rgb(46, 179, 41);
+}
+
+#notes-list {
+  align-self: end;
+  margin: 20px 5px;
+  padding: 20px 3px;
+}
+
+/* #notes-list button,
+#edit-note button {
+  width: 70px;
+  height: 30px;
+} */
+
+#notes-list .delete {
+  border: 2px solid red;
+}
+
+.hide {
+  display: none;
+}
+
+
+#list{
+  background-color: rgb(132, 219, 245);
+  color: rgb(77, 77, 77);  
+  width: auto;
+  padding: 20px;
+  border-radius: 20px;
+  list-style-type: none;
+}
+
+
+li{
+  border: solid 2px black;
+}
+
+/* edit description textarea */
+#editDescription{
+  display: block;
+  margin-top: 10px;
+}
